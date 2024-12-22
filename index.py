@@ -4,6 +4,8 @@ from routes.doing_routes import doing_bp
 from routes.certificate_routes import certificate_bp
 from routes.award_routes import award_bp
 from routes.skill_routes import skill_bp
+from routes.portofolio_routes import portofolio_bp
+
 
 
 
@@ -15,6 +17,7 @@ app.register_blueprint(doing_bp)
 app.register_blueprint(certificate_bp)
 app.register_blueprint(award_bp)
 app.register_blueprint(skill_bp)
+app.register_blueprint(portofolio_bp)
 
 
 # @app.route('/skill', methods=['GET'])
