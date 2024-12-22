@@ -2,6 +2,10 @@ from flask import Flask
 from routes.about_routes import about_bp
 from routes.doing_routes import doing_bp
 from routes.certificate_routes import certificate_bp
+from routes.award_routes import award_bp
+from routes.skill_routes import skill_bp
+
+
 
 
 app  = Flask(__name__)
@@ -9,6 +13,8 @@ app  = Flask(__name__)
 app.register_blueprint(about_bp)
 app.register_blueprint(doing_bp)
 app.register_blueprint(certificate_bp)
+app.register_blueprint(award_bp)
+app.register_blueprint(skill_bp)
 
 
 # @app.route('/skill', methods=['GET'])
