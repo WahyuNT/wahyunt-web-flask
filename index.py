@@ -1,26 +1,33 @@
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
 from dotenv import load_dotenv
+from flask import Flask, Blueprint
+from config import DevelopmentConfig, ProductionConfig
 import os
 
-
-load_dotenv()
-
-mongo_uri  = os.getenv('MONGO_URI')
+if os.getenv('FLASK_ENV') == 'production':
+    active_config = ProductionConfig
+else:
+    active_config = DevelopmentConfig
 
 app = Flask(__name__)
 
-client = MongoClient(mongo_uri)
+api = Blueprint('api', __name__, url_prefix='/api')
+
+
+client = MongoClient(active_config.MONGO_URI)
 db = client['web_wahyunt']
 skills_collection  = db['skills']
 
-@app.route('/api/skills', methods=['GET'])
+@app.route('/skill', methods=['GET'])
 def get_skills():
     try:
         skills = list(skills_collection.find({}, {'_id': 0}))  # Exclude _id
         return jsonify(skills)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+app.register_blueprint(api)
 
 # POST: Tambah skill baru
 @app.route('/skills', methods=['POST'])
