@@ -11,7 +11,7 @@ about_collection = db['abouts']
 
 def get_about():
     try:
-        about = list(about_collection.find({},{'_id':0}))
+        about = about_collection.find_one({},{'_id':0})
         return jsonify(about)
     except Exception as e :
         return jsonify({"error" : str(e)}),500
