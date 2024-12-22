@@ -7,7 +7,7 @@ client = MongoClient('mongodb+srv://root:root@cluster0.lhlezvs.mongodb.net/web_w
 db = client['web_wahyunt']
 skills_collection  = db['skills']
 
-@app.route('/skills', methods=['GET'])
+@app.route('/api/skills', methods=['GET'])
 def get_skills():
     try:
         skills = list(skills_collection.find({}, {'_id': 0}))  # Exclude _id
