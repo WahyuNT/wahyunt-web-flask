@@ -7,12 +7,12 @@ import os
 
 
 
-about_collection = db['abouts']
+doing_collection = db['doings']
 
-def get_about():
+def get_doing():
     try:
-        about = about_collection.find_one({},{'_id':0})
-        return jsonify({"data":about})
+        doing = list(doing_collection.find({},{'_id':0}))
+        return jsonify({"data":doing})
     except Exception as e :
         return jsonify({"error" : str(e)}),500
     

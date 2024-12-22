@@ -7,12 +7,12 @@ import os
 
 
 
-about_collection = db['abouts']
+certificate_collection = db['certificates']
 
-def get_about():
+def get_certificate():
     try:
-        about = about_collection.find_one({},{'_id':0})
-        return jsonify({"data":about})
+        certificate = list(certificate_collection.find({},{'_id':0}))
+        return jsonify({"data":certificate})
     except Exception as e :
         return jsonify({"error" : str(e)}),500
     
