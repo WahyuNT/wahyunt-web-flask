@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from routes.about_routes import about_bp
 from routes.doing_routes import doing_bp
 from routes.certificate_routes import certificate_bp
@@ -11,6 +12,8 @@ from routes.portofolio_routes import portofolio_bp
 
 
 app  = Flask(__name__)
+CORS(app)
+
 
 app.register_blueprint(about_bp)
 app.register_blueprint(doing_bp)
