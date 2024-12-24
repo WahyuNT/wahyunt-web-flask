@@ -16,4 +16,10 @@ def get_award():
     except Exception as e :
         return jsonify({"error" : str(e)}),500
     
+def get_award_detail(slug):
+    try:
+        award_detail = award_collection.find_one({"slug": slug},{'_id':0})
+        return jsonify({"data":award_detail})
+    except Exception as e:
+        return jsonify({"error": str(e)}),500
     
