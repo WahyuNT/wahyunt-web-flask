@@ -34,6 +34,7 @@ def get_award_list(oid):
     try:
         awardid = ObjectId(oid)
         award_list = list(award_image_collection.find({"awardid": awardid}, {'_id': 0, 'awardid': 0}))
+        award_list.sort(key=lambda x: x.get('sort', ''))
 
         for award in award_list:
             if 'awardid' in award:
