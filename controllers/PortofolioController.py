@@ -11,31 +11,31 @@ portofolio_collection = db['portofolios']
 portofolio_image_collection = db['imageportofolios']
 
 
-def get_portofolio():
-    keyword = request.args.get('keyword', '')
-    try:
-        # Sesuaikan path untuk naik satu level ke atas dari controllers
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        parent_dir = os.path.dirname(current_dir)  # Naik satu level ke atas
-        json_path = os.path.join(parent_dir, 'lib', 'portofolio.json')
+# def get_portofolio():
+#     keyword = request.args.get('keyword', '')
+#     try:
+#         # Sesuaikan path untuk naik satu level ke atas dari controllers
+#         current_dir = os.path.dirname(os.path.abspath(__file__))
+#         parent_dir = os.path.dirname(current_dir)  # Naik satu level ke atas
+#         json_path = os.path.join(parent_dir, 'lib', 'portofolio.json')
         
-        with open(json_path, 'r', encoding='utf-8') as file:
-            portfolio = json.load(file)
+#         with open(json_path, 'r', encoding='utf-8') as file:
+#             portfolio = json.load(file)
             
-        # Filter berdasarkan keyword jika ada
-        if keyword:
-            filtered_portfolio = [
-                item for item in portfolio 
-                if keyword.lower() in item.get('type', '').lower()
-            ]
-            return jsonify({"data": filtered_portfolio})
+#         # Filter berdasarkan keyword jika ada
+#         if keyword:
+#             filtered_portfolio = [
+#                 item for item in portfolio 
+#                 if keyword.lower() in item.get('type', '').lower()
+#             ]
+#             return jsonify({"data": filtered_portfolio})
             
-        return jsonify({"data": portfolio})
+#         return jsonify({"data": portfolio})
     
-    except FileNotFoundError:
-        return jsonify({"error": "File portofolio.json tidak ditemukan"}), 404
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+#     except FileNotFoundError:
+#         return jsonify({"error": "File portofolio.json tidak ditemukan"}), 404
+#     except Exception as e:
+#         return jsonify({"error": str(e)}), 500
     
 def get_portofolio_detail(slug):
     try:
