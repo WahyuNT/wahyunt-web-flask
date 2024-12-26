@@ -14,7 +14,9 @@ award_image_collection = db['awardimages']
 
 def get_award():
     try:
-        award = list(award_collection.find({},{'_id':0}))
+        award = list(award_collection.find({}))
+        for i in range(len(award)):
+            award[i]['_id'] = str(award[i]['_id'])
         return jsonify({"data":award})
     except Exception as e :
         return jsonify({"error" : str(e)}),500
