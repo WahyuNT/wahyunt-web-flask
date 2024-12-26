@@ -24,6 +24,7 @@ def get_portofolio():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
+    
 def get_portofolio_detail(slug):
     try:
         portofolio_detail=  portofolio_collection.find_one({"slug": slug})
