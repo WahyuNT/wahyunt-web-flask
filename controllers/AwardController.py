@@ -44,3 +44,18 @@ def get_award_list(oid):
         return jsonify({"data": award_list}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+def get_award_image():
+    try:
+        awardImage = list(award_image_collection.find({}))
+
+        for i in range(len(awardImage)):
+            awardImage[i]['_id'] = str(awardImage[i]['_id'])
+
+        for award in awardImage:
+            if 'awardid' in award:
+                award['awardid'] = str(award['awardid'])
+        return jsonify({"data":awardImage})
+    except Exception as e :
+        return jsonify({"error" : str(e)}),500
+    

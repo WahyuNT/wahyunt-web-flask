@@ -20,6 +20,7 @@ def get_portofolio():
             ))
         else:
             portfolio = list(portofolio_collection.find({}, {"_id": 0}))
+            
         return jsonify({"data":portfolio})
     except Exception as e :
         return jsonify({"error" : str(e)}),500
@@ -48,3 +49,18 @@ def get_portofolio_list(oid):
         return jsonify({"data": portofolio_list}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+def get_portofolio_image():
+    try:
+        portofolioImage = list(portofolio_image_collection.find({}))
+
+        for i in range(len(portofolioImage)):
+            portofolioImage[i]['_id'] = str(portofolioImage[i]['_id'])
+
+        for portofolio in portofolioImage:
+            if 'portofolio' in portofolio:
+                portofolio['portofolio'] = str(portofolio['portofolio'])
+        return jsonify({"data":portofolioImage})
+    except Exception as e :
+        return jsonify({"error" : str(e)}),500
+    
