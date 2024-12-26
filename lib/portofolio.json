@@ -1,0 +1,678 @@
+[{
+  "_id": {
+    "$oid": "65fc83fe495c2002d2d110a3"
+  },
+  "software": [
+    "laravel.png",
+    "mysql.jpg",
+    "React_JS.png",
+    "express_JS.png",
+    "js.png",
+    "bootstrap.png"
+  ],
+  "icon_company": "faicon.png",
+  "cover": "web FA.png",
+  "title": "Website Forum Asisten",
+  "desc": "The Forum Assistant website, located at forumasisten.or.id, is utilized for laboratory assistant activities at Amikom University Yogyakarta. This Forum Assistant website was created to replace the previous version, which was limited to registration only, hence I refer to this version as 2.0. It features functionalities such as practical assistant registration, assistant data management, attendance tracking, certification issuance, polling, assistant reporting, and more.\n\nPrimarily developed using Laravel, this website also incorporates several microservices built with Express JS and React JS. It operates on a VPS equipped with Docker and Jenkins. Initially, I developed this website independently with Laravel from version 2.0 to 2.1. However, for the version 2.2 update, I received assistance from my friend named Haikal. He primarily aided me with JavaScript and supported me in managing the server with Jenkins and Docker.\n",
+  "desc_company": "",
+  "company": "Forum Asisten",
+  "purpose": "For Amikom practicum assistant",
+  "date": "2022-2023",
+  "slug": "website-forum-asisten",
+  "link": "https://forumasisten.or.id/",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-21T19:01:18.270Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-21T19:01:18.270Z"
+  },
+  "__v": 0,
+  "type": [
+    "Website",
+    "Full Stack",
+    "HTML CSS",
+    "Front End",
+    "Back End",
+    "Desktop",
+    "Mobile"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fc91cbd1c4e7041b0a8960"
+  },
+  "software": [
+    "laravel.png",
+    "mysql.jpg",
+    "figma.png",
+    "bootstrap.png",
+    "js.png"
+  ],
+  "icon_company": "iocn expo.png",
+  "cover": "expo-cover.png",
+  "title": "Website EXPO AMIKOM 2022",
+  "desc": "Amikom Expo 2022 is an annual event hosted by Amikom University Yogyakarta. It serves as a platform to introduce the various organizations within Amikom. During the event, I was part of the equipment division, but additionally, I also contributed to the development of the expoamikom2022.com website. The website development team consisted of two people and was built using Laravel 8. In this project, In the development process, I primarily focused on UI/UX, while my friend named Reni took on more tasks related to Laravel.",
+  "desc_company": "",
+  "company": "EXPO AMIKOM 2022",
+  "purpose": "Displaying organizations at Amikom",
+  "date": "Sept 2022 -  Oct 2022",
+  "slug": "website-expo-amikom-2022",
+  "link": "https://expoamikom2022.wahyunt.me/",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-21T20:00:11.749Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-21T20:00:11.749Z"
+  },
+  "__v": 0,
+  "type": [
+    "HTML",
+    "Design",
+    "UI/UX",
+    "Website",
+    "CSS",
+    "Front End"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fc949cd1c4e7041b0a8964"
+  },
+  "software": [
+    "laravel.png",
+    "figma.png",
+    "mysql.jpg",
+    "bootstrap.png",
+    "js.png"
+  ],
+  "icon_company": "logo-boim-2023.png",
+  "cover": "boimCover.png",
+  "title": "Website BOIM AMIKOM 2023",
+  "desc": "Boim Amikom 2023 is an annual event held by the Information Technology program to appreciate students' multimedia works. During the event, Anggita and I served in the web division. The Boim Amikom 2023 website, located at boimamikom.com, was developed using Laravel 9. In the website's development, I was tasked with working on UI/UX design and Laravel implementation. The website serves as a platform to showcase students' works and conduct voting for the submissions.",
+  "desc_company": "",
+  "company": "BOIM AMIKOM 2022",
+  "purpose": "Displaying multimedia arts",
+  "date": "Sep 2022 - Okt 2022",
+  "slug": "website-boim-amikom-2023",
+  "link": "http://boimamikom.wahyunt.me/",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-21T20:12:12.460Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-21T20:12:12.460Z"
+  },
+  "__v": 0,
+  "type": [
+    "Website",
+    "Front End",
+    "UI/UX",
+    "HTML",
+    "CSS",
+    "Design"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fcfde0d1c4e7041b0a8979"
+  },
+  "software": [
+    "unity.png",
+    "figma.png",
+    "blender.png",
+    "csharp.png"
+  ],
+  "icon_company": "icon newton ar.png",
+  "cover": "cover.png",
+  "title": "App Newton AR",
+  "desc": "The Newton AR application is an interactive learning app for Newton's laws theory. Within this application, there are explanations for Newton's first, second, and third laws. Additionally, there is an Augmented Reality feature to illustrate the application of Newton's laws in everyday occurrences.",
+  "desc_company": "",
+  "company": "Newton AR",
+  "purpose": "Newton's Laws Interactive Media",
+  "date": "Nov 2022",
+  "slug": "app-newton-ar",
+  "link": "https://play.google.com/store/apps/details?id=com.Ruber.NewtonAR",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T03:41:20.192Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T03:41:20.192Z"
+  },
+  "__v": 0,
+  "type": [
+    "Android",
+    "AR",
+    "3D",
+    "Interactive Media",
+    "Design",
+    "Mobile",
+    "UI/UX"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fcff99d1c4e7041b0a897c"
+  },
+  "software": [
+    "unity.png",
+    "figma.png",
+    "CorelDraw.png",
+    "csharp.png"
+  ],
+  "icon_company": "xiotkp.png",
+  "cover": "XIOtkp icon.png",
+  "title": "Media Pembelajaran Sistem Administrasi Kepegawaian",
+  "desc": "This interactive media aims to provide knowledge on personnel administration systems. In addition to explanations, this application features crossword puzzles that can be utilized to sharpen users' knowledge. Developed using Unity Engine, the application is built for WebGL and is accessible at mediapembelajaranxiotkp.my.id.",
+  "desc_company": "",
+  "company": "Media Pembelajaran XI OTKP",
+  "purpose": "Personnel Administration System Interactive Media",
+  "date": "March 2023",
+  "slug": "media-pembelajaran-xi-otkp",
+  "link": "https://mediapembelajaranxiotkp.my.id/",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T03:48:41.285Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T03:48:41.285Z"
+  },
+  "__v": 0,
+  "type": [
+    "Website",
+    "WebGL",
+    "Media Interactive",
+    "UI/UX"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd1b594c27e89ddc611594"
+  },
+  "software": [
+    "unity.png",
+    "CorelDraw.png",
+    "csharp.png"
+  ],
+  "icon_company": "iconwa_1711086425108.png",
+  "cover": "wahana_cover.png",
+  "title": "Wahana Antariksa",
+  "desc": "Wahana Antariksa is an interactive media aimed at introducing space exploration. It provides explanations about the solar system, planets, and astronomical objects. Additionally, Wahana Antariksa includes quizzes to test users' knowledge about space.",
+  "desc_company": "",
+  "company": "Wahana Antariksa",
+  "purpose": "Space Interactive Media",
+  "date": "Jul 2022",
+  "slug": "wahana-antariksa",
+  "link": "https://wahyunt.itch.io/wahana-antariksa",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T05:47:05.142Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T05:47:05.142Z"
+  },
+  "__v": 0,
+  "type": [
+    "Website",
+    "WebGL",
+    "Interactive Media"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd2003ce3d7a1a6b43b368"
+  },
+  "software": [
+    "Unreal_Engine.png",
+    "blender.png",
+    "figma.png"
+  ],
+  "icon_company": "prismIcon.png",
+  "cover": "prism.jpg",
+  "title": "Game Prism Odyssey",
+  "desc": "Prism Odyssey is an RPG-Open World game with a third-person view where players can explore and engage in battles. The game invites players to join the main character, Elio, on his journey across diverse regions to restore 'the rainbow,' symbolizing balance and seal it to the outer world. As the protagonist meticulously explores the elements of each region, players can encounter characters, search for clues, complete missions, and unravel mysteries.\n\nI created this game with my partner, Sahda, for our semester's final project. During this event, we also won awards for Best of the Best Game, Best Digital Concept Art, and Best Idea & Concept of Modeling. I was tasked with working on Unreal Engine, while Sahda worked on Concept Art and 3D Modeling characters in Blender.\n\n\n\n\n\n",
+  "desc_company": "",
+  "company": "Prism Odyssey",
+  "purpose": "Game",
+  "date": "March 2023 - July 2023",
+  "slug": "prism-odyssey",
+  "link": "",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T06:06:59.578Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T06:06:59.578Z"
+  },
+  "__v": 0,
+  "type": [
+    "Game",
+    "Desktop",
+    "3D"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd2592ce3d7a1a6b43b36c"
+  },
+  "software": [
+    "unity.png",
+    "CorelDraw.png",
+    "csharp.png"
+  ],
+  "icon_company": "Mba Sri_1711089042881.png",
+  "cover": "BG Byte.png",
+  "title": "Game Byte Heroes",
+  "desc": "This game is a 2D game featuring main characters and enemies facing each other. As a player, you have the freedom to use visual scripting methods to create effective attack combinations to incapacitate enemy characters. Additionally, visual scripting allows you to adjust the level of damage generated by attacks. You can set how much damage will be dealt to enemies based on the attack combinations you create. This allows you to adjust the difficulty of the game or present challenges that align with your preferences.\nIn this project, I collaborated with two of my friends, Fikri and Davinta. I was assigned the task of creating the game in Unity, Fikri worked on the background, and Davinta handled character design.",
+  "desc_company": "",
+  "company": "Byte Heroes",
+  "purpose": "Game",
+  "date": "July 2023",
+  "slug": "byte-heroes",
+  "link": "",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T06:30:42.893Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T06:30:42.893Z"
+  },
+  "__v": 0,
+  "type": [
+    "Game",
+    "Desktop",
+    "2D"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd2a66ce3d7a1a6b43b372"
+  },
+  "software": [
+    "Unreal_Engine.png",
+    "CorelDraw.png"
+  ],
+  "icon_company": "aspa_icon.webp",
+  "cover": "aspa.png",
+  "title": "Game Assault Past Mobile",
+  "desc": "Assault Past: Mobile is a shooting adventure game centered around the concept of time manipulation, allowing you to rewind time to complete missions, fight enemies, and unlock doors.\nThis game was developed using Unreal Engine in 2021, and it's my first game created with Unreal Engine.",
+  "desc_company": "",
+  "company": "Assault Past : Mobile",
+  "purpose": "Game Shooter",
+  "date": "Feb 2021",
+  "slug": "assault-past-mobile",
+  "link": "https://play.google.com/store/apps/details?id=com.arcifel.aspamobile",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T06:51:18.723Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T06:51:18.723Z"
+  },
+  "__v": 0,
+  "type": [
+    "Game",
+    "Android",
+    "Mobile",
+    "3D"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd2b68ce3d7a1a6b43b375"
+  },
+  "software": [
+    "Unreal_Engine.png",
+    "CorelDraw.png"
+  ],
+  "icon_company": "03a46d65623131cbc7b3245e928bd5da.webp",
+  "cover": "BannerTE.jpg",
+  "title": "Game Tiny Escape",
+  "desc": " ",
+  "desc_company": "",
+  "company": "Tiny Escape",
+  "purpose": "Game Horror",
+  "date": "May 2021",
+  "slug": "tiny-escape",
+  "link": "https://play.google.com/store/apps/details?id=com.arcifel.tinyescape",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T06:55:36.086Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T06:55:36.086Z"
+  },
+  "__v": 0,
+  "type": [
+    "Game",
+    "3D",
+    "Android",
+    "Mobile"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd2f56ce3d7a1a6b43b379"
+  },
+  "software": [
+    "unity.png",
+    "laravel.png",
+    "csharp.png",
+    "figma.png",
+    "CorelDraw.png"
+  ],
+  "icon_company": "Icon flora.png",
+  "cover": "In App.png",
+  "title": "App Florateria",
+  "desc": "The Florateria App is an application that I developed for my final college project, which I used as the subject of my research journal indexed in SINTA 3. This project focuses on the utilization of NFC as an alternative to Augmented Reality. The application was developed using Unity, and the data management website was created using Laravel, located at florateria.fun.",
+  "desc_company": "",
+  "company": "Florateria",
+  "purpose": "NFC APP",
+  "date": "Okt 2023",
+  "slug": "app-florateria",
+  "link": "https://play.google.com/store/apps/details?id=com.arcifel.tinyescape",
+  "github": "https://github.com/WahyuNT/florateria-app",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T07:12:22.778Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T07:12:22.778Z"
+  },
+  "__v": 0,
+  "type": [
+    "Website",
+    "Full Stack",
+    "Mobile",
+    "NFC"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd3150ce3d7a1a6b43b37c"
+  },
+  "software": [
+    "Unreal_Engine.png",
+    "blender.png",
+    "figma.png"
+  ],
+  "icon_company": "iconAstral.png",
+  "cover": "astralCover.png",
+  "title": "Game Astral",
+  "desc": "This game was created with my friend named Wulan. She was responsible for creating 2D art, while I worked on 3D and Unreal Engine aspects. The game was developed using Unreal Engine and was intended for participation in the Boim 2022 event competition. It successfully won the award for Best Gameplay.",
+  "desc_company": "",
+  "company": "Astral",
+  "purpose": "Game",
+  "date": "Feb 2022",
+  "slug": "astral",
+  "link": "https://wahyunt.itch.io/astral",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T07:20:48.085Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T07:20:48.085Z"
+  },
+  "__v": 0,
+  "type": [
+    "Game",
+    "3D",
+    "Desktop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd3799ce3d7a1a6b43b38c"
+  },
+  "software": [
+    "blender.png",
+    "ae.png"
+  ],
+  "icon_company": "iconSolved.png",
+  "cover": "solved.jpg",
+  "title": "Solved 3D Animation",
+  "desc": "The animation titled \"Yashaks\" tells the story of an unfinished 3D character who escapes from the laptop screen to resolve a problem. This animation was created by Setsuna, consisting of Theak, Farisa, Radin, Tyo, and myself. Theak leads the group, overseeing the project's progress. Farisa and Radin are tasked with animating the characters, while Tyo and I work on 3D modeling for the environment. This 3D animation is our internship assignment at MSV Studio.",
+  "desc_company": "",
+  "company": "Solved",
+  "purpose": "3D Animasi",
+  "date": "Mar - July 2022",
+  "slug": "solved",
+  "link": "https://www.youtube.com/watch?v=6JsIXmXgcsA&t=62s&pp=ygUKc29sdmVkIGdrbQ%3D%3D",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T07:47:37.833Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T07:47:37.833Z"
+  },
+  "__v": 0,
+  "type": [
+    "3D",
+    "Multimedia"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd3a78ce3d7a1a6b43b38f"
+  },
+  "software": [
+    "ae.png",
+    "premiere.png",
+    "figma.png"
+  ],
+  "icon_company": "icon 21.png",
+  "cover": "2.1.png",
+  "title": "Web FA 2.1 Introducing Motion Graphics",
+  "desc": "This is the motion graphics I created using After Effects. I made this to introduce the new features in the 2.1 update of the Forum Asisten website, such as Mobile UI, Scan Attendance, Certificates, Live Search, Courses, etc.",
+  "desc_company": "",
+  "company": "FA 2.1 Introducing",
+  "purpose": "Motion graphics",
+  "date": "May 2023",
+  "slug": "web-fa-2-1",
+  "link": "https://www.instagram.com/reel/CsqL17HgQ8O/",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T07:59:52.300Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T07:59:52.300Z"
+  },
+  "__v": 0,
+  "type": [
+    "Motion Graphics",
+    "Multimedia"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd3cd1ce3d7a1a6b43b392"
+  },
+  "software": [
+    "ae.png",
+    "premiere.png",
+    "figma.png"
+  ],
+  "icon_company": "icon 2.2.png",
+  "cover": "2.2 update .png",
+  "title": "Web FA 2.2 Introducing Motion Graphics",
+  "desc": "After the 2.1 update, this time I've created motion graphics for the 2.2 update. Similar to before, I've crafted this motion graphics to introduce the newest features on the Forum Asisten website 2.2. Some of the features include Desktop View, Multiple Forms for adding schedules, Attendance Activity Heatmap, Assistant Report Form, Notifications, and Achievements.",
+  "desc_company": "",
+  "company": "FA 2.2 Introducing",
+  "purpose": "Motion graphics",
+  "date": "Dec 2023",
+  "slug": "web-fa-2-2",
+  "link": "https://www.instagram.com/reel/C0sxPnVxq03/",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T08:09:53.488Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T08:09:53.488Z"
+  },
+  "__v": 0,
+  "type": [
+    "Motion Graphics",
+    "Multimedia"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd812bce3d7a1a6b43b3a2"
+  },
+  "software": [
+    "unity.png",
+    "csharp.png",
+    "photoshop.png"
+  ],
+  "icon_company": "icon2dgame.png",
+  "cover": "tloms_1711112491534.jpg",
+  "title": "Game 2D The Legend of Monster Slayer",
+  "desc": "This game was created by me and some of my friends during the second semester of our college studies. It was developed as our final project for a course. Utilizing Unity Engine, we crafted this game using assets provided by our lecturer.\nIn the development of this game, I've implemented features such as Player Health, Energy, Experience Points (Exp), Level, Health, Level, Energy Skill, Inventory (Pick Up & Drop Items), Upgrade, Combat, Enemy A.I, Mini Map, Map (Zoom In & Zoom Out), Ultimate Skill, Name Change, and Rewards.",
+  "desc_company": "",
+  "company": "The Legend of Monster Slayer",
+  "purpose": "Game 2D",
+  "date": "Jul 2021",
+  "slug": "the-legend-of-monster-slayer",
+  "link": "https://www.youtube.com/watch?v=MtknyU7Yb7U&t=13s&ab_channel=WahyuNT",
+  "github": "",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-22T13:01:31.539Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-22T13:01:31.539Z"
+  },
+  "__v": 0,
+  "type": [
+    "Game",
+    "2D"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660066420299ba8027d9e743"
+  },
+  "software": [
+    "Next_JS.jpg",
+    "bootstrap.png",
+    "mongo.png",
+    "React_JS.png",
+    "express_JS.png"
+  ],
+  "type": [
+    "Website",
+    "Front End",
+    "Back End",
+    "Full Stack",
+    "HTML CSS"
+  ],
+  "icon_company": "WAHYUNT ICON.png",
+  "cover": "webwnt.png",
+  "title": "Website Portofolio",
+  "desc": "",
+  "desc_company": "",
+  "company": "Wahyu NT Portofolio",
+  "purpose": "Website Portofolio",
+  "date": "Mar 2024",
+  "slug": "web-wahyunt",
+  "link": "https://wahyunt.me/",
+  "github": "https://github.com/WahyuNT/web-wahyunt",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-03-24T17:43:30.488Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-24T17:43:30.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661bc065e45d0e8d17b0fbdf"
+  },
+  "software": [
+    "Next_JS.jpg",
+    "bootstrap.png",
+    "figma.png",
+    "React_JS.png"
+  ],
+  "type": [
+    "Website",
+    "Front End",
+    "HTML CSS",
+    "UI/UX",
+    "Design"
+  ],
+  "icon_company": "Icon Arc-play.png",
+  "cover": "Home.png",
+  "title": "Website Arc play",
+  "desc": "Arc Play is a dynamic live streaming platform tailored for gamers, enabling users to watch, stream their gameplay, donate to their favorite streamers, and connect with fellow gaming enthusiasts. With its user-friendly interface and robust features, Arc Play fosters a vibrant gaming community where players can share experiences, support each other, and forge new friendships while enjoying their favorite games.",
+  "desc_company": "",
+  "company": "Wahyu NT Portofolio",
+  "purpose": "Website Portofolio",
+  "date": "April 2024",
+  "slug": "web-arc-play",
+  "link": "https://arcplay.wahyunt.me/",
+  "github": "https://github.com/WahyuNT/arc-play-web",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-04-14T11:39:17.610Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-14T11:39:17.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66209786e45d0e8d17b0fc66"
+  },
+  "software": [
+    "React_JS.png",
+    "Next_JS.jpg",
+    "bootstrap.png",
+    "figma.png"
+  ],
+  "type": [
+    "HTML CSS",
+    "Front End",
+    "Website",
+    "UI/UX",
+    "Design"
+  ],
+  "icon_company": "icon readbox.png",
+  "cover": "ss1.png",
+  "title": "Website Readbox",
+  "desc": "",
+  "desc_company": "",
+  "company": "Wahyu NT Portofolio",
+  "purpose": "Website Portofolio",
+  "date": "April 2024",
+  "slug": "web-readbox",
+  "link": "https://arcplay.wahyunt.me/",
+  "github": "https://github.com/WahyuNT/readbox-web",
+  "figma": "",
+  "createdAt": {
+    "$date": "2024-04-18T03:46:14.451Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T03:46:14.451Z"
+  },
+  "__v": 0
+}]
